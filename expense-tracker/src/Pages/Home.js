@@ -1,8 +1,12 @@
+import React from "react";
+import TopFold from "./TopFold";
+
 const Home = () => {
     return (
         <div className="home">
-            <div>TopFold</div>
-            <div>ExpenseList</div>
+            <div>
+                <TopFold />
+            </div>
         </div>
     )
 }
